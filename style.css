@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: "pacifico";
+	src:url("fonts/Pacifico/Pacifico-Regular.ttf");
+}
+#menu{
+	background-color: #631F44;
+	box-shadow: 0 0 50px #794b7a;
+}
+#logo{
+	display: inline-block;
+}
+#logo img{
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 70px;
+}
+#menu ul{
+	float: right;
+	padding: 25px 50px;
+}
+
+#menu ul li{
+	display: inline;
+
+}
+.logo_title{
+	display: inline-block;
+	font-size: 25px;
+	color: white;
+	padding-bottom: 20px;
+	font-family: pacifico;
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 0 10px;
+	display: inline-block;
+	transition: transform .3s ease-out;
+
+
+}
+#menu ul li a:hover{
+	color: #b991ba;
+	transform: translate(0,-4px);
+}
+#banner{
+	width: 50%;
+	margin-left: 25%;
+}
+#banner img{
+	width: 100%;
+	margin-top: 25px;
+}
+.clear{
+	clear: both;
+}
+
+.title{
+	max-width: 50%;
+	margin-left: 25%;
+	margin-top: 30px;
+}
+
+.title .title_text{
+	text-align: center;
+}
+
+
+.title .outline{
+	max-width: 50%;
+	margin :0 25%;
+	height: 1px;
+	background-color: black;
+
+}
+.card_box{
+	max-width: 90%;
+	margin-left: 15%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: inline-block;
+
+
+
+}
+
+.card_box .box1{
+	margin-left: 0;
+	max-width: 25%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000000;
+	display: inline-block;
+	float: left;
+
+}
+.card_box .box2{
+	max-width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+
+}
+.card_box .box3{
+	max-width: 25%;
+	margin-right: 15px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+}
+.box1 img{
+	max-width: 100%;
+}
+.box2 img{
+	max-width: 100%;
+}
+
+.box3 img{
+	max-width: 100%;
+}
+
+
+.card_box .box11{
+	margin-left: 0;
+	max-width: 25%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000000;
+	display: inline-block;
+	float: left;
+
+}
+.card_box .box22{
+	max-width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+
+}
+.card_box .box33{
+	max-width: 25%;
+	margin-right: 15px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+}
+.box11 img{
+	max-width: 100%;
+}
+.box22 img{
+	max-width: 100%;
+}
+
+.box33 img{
+	max-width: 100%;
+}
+
+.card_box .box21{
+	margin-left: 0;
+	max-width: 25%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000000;
+	display: inline-block;
+	float: left;
+
+}
+.card_box .box31{
+	max-width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+
+}
+.card_box .box41{
+	max-width: 25%;
+	margin-right: 15px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+}
+.box21 img{
+	max-width: 100%;
+}
+.box31 img{
+	max-width: 100%;
+}
+
+.box41 img{
+	max-width: 100%;
+}
+
+
+.card_box .box51{
+	margin-left: 0;
+	max-width: 25%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000000;
+	display: inline-block;
+	float: left;
+
+}
+.card_box .box61{
+	max-width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+
+}
+.card_box .box71{
+	max-width: 25%;
+	margin-right: 15px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+}
+.box51 img{
+	max-width: 100%;
+}
+.box61 img{
+	max-width: 100%;
+}
+
+.box71 img{
+	max-width: 100%;
+}
+.box h4{
+	text-align: center;
+}
+
+.card_box .box25{
+	margin-left: 0;
+	max-width: 25%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000000;
+	display: inline-block;
+	float: left;
+
+}
+.card_box .box35{
+	max-width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+
+}
+.card_box .box45{
+	max-width: 25%;
+	margin-right: 15px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+}
+.box25 img{
+	max-width: 100%;
+}
+.box35 img{
+	max-width: 100%;
+}
+
+.box45 img{
+	max-width: 100%;
+}
+
+
+.card_box .box55{
+	margin-left: 0;
+	max-width: 25%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000000;
+	display: inline-block;
+	float: left;
+
+}
+.card_box .box65{
+	max-width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+
+}
+.card_box .box75{
+	max-width: 25%;
+	margin-right: 15px;
+	box-shadow: 0 0 10px #000000;
+	float: left;
+
+}
+.box55 img{
+	max-width: 100%;
+}
+.box65 img{
+	max-width: 100%;
+}
+
+.box75 img{
+	max-width: 100%;
+}
+.box h4{
+	text-align: center;
+}
+.box1,.box2,.box3,.box11,.box22,.box33,.box21,.box31,.box41,.box51,.box61,.box71,.rating{
+	text-align: center;
+	color: #631F44;
+
+}
+.box25,.box35,.box45,.box55,.box65,.box75{
+	text-align: center;
+	color: #631F44;
+}
+.buy_btn{
+	width: 100%;
+	padding: 5px;
+	background-color: #610073;
+	border: none;
+	color: white;
+}
+#design{
+	text-align: center;
+	display: inline-block;
+}
+.p{
+	max-width: 45%;
+	margin-left: 10px;
+	margin-right: 80px;
+	text-align: justify-all;
+	float: right;
+}
+#menus{
+	background-color: gray;
+}
+footer{
+	margin-top: 12px;
+	background-color:white;
+	padding: 25px 25px;
+	text-align: center;
+}
+.ins{
+	width: 20px;
+	height: 20px;
+}
+
+	
+
+
+
